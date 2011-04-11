@@ -21,7 +21,7 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="gingerbread" />
-  <project path="dalvik" name="roalex/cos_dalvik" remote="github" />
+  <project path="dalvik" name="roalex/cos_dalvik" remote="github" revision="cos"/>
   <project path="development" name="CyanogenMod/android_development" remote="github" revision="gingerbread" />
 
   <project path="device/common" name="device/common" />
