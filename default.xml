@@ -177,7 +177,7 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone_stock" name="roalex/Phone_stock" remote="github" revision="master"/>
-  <project path="packages/apps/Phone" name="roalex/cos_packages_apps_Phone" remote="github" />
+  <project path="packages/apps/Phone" name="roalex/cos_packages_apps_Phone" remote="github" revision="cos"/>
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" remote="github" revision="gingerbread" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
