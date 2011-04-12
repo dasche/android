@@ -161,7 +161,7 @@
   <project path="packages/apps/COSsettings" name="roalex/COSsettings" remote="github" revision="master" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" revision="gingerbread" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" revision="gingerbread" />
-  <project path="packages/apps/DSPManager" name="roalex/DSP_Manager remote="github" revision="test" />
+  <project path="packages/apps/DSPManager" name="roalex/DSP_Manager remote="github" revision="test"/>
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="gingerbread" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="gingerbread" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="gingerbread" />
