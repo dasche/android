@@ -156,7 +156,7 @@
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="gingerbread" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="github" revision="gingerbread" />
-  <project path="packages/apps/CMWallpapers-MDPI" name="roalex/cos_packages_apps_CMWallpapers_mdpi" remote="github" revision="master" />
+  <project path="packages/apps/CMWallpapers-MDPI" name="roalex/cos_packages_apps_CMWallpapers_mdpi" remote="github" revision="Cos" />
   <project path="packages/apps/Contacts_stock" name="roalex/Contacts_stock" remote="github" revision="master" />
   <project path="packages/apps/COSsettings" name="roalex/COSsettings" remote="github" revision="master" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" revision="gingerbread" />
