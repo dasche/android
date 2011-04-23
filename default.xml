@@ -225,7 +225,7 @@
   <project path="vendor/tmobile/themes/Androidian_HDPI" name="roalex/Androidian_HDPI" remote="github" revision="cos" />
   <project path="vendor/tmobile/themes/Cyanbread_HDPI" name="roalex/Cyanbread_HDPI" remote="github" revision="cos" />
   <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" />
-
+  <project path="kernel-biff-testing" name="roalex/kernel-biff-testing" remote="github" revision="ezgb-2636"/>
   <project path="android" name="roalex/android" remote="github" revision="master" />
 
 </manifest>
