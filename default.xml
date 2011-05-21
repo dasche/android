@@ -20,7 +20,7 @@
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
   <project path="bootable/bootloader/legacy" name="roalex/platform_bootloader_legacy" remote="github" revision="master"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="gingerbread" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="dalvik" name="roalex/cos_android_dalvik" remote="github" revision="cos"/>
   <project path="development" name="CyanogenMod/android_development" remote="github" revision="gingerbread" />
   <project path="device/common" name="device/common" />
