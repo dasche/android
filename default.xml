@@ -119,7 +119,8 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="gingerbread" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="gingerbread" />
 
-
+  
+  <project path="frameworks/base" name="roalex/cos_framework_base" remote="github" revision="Cos" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
 
