@@ -65,8 +65,6 @@
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" />
   <project path="external/guava" name="platform/external/guava" />
-  <project path="external/harfbuzz" name="platform/external/harfbuzz" />
-  <project path="external/hyphenation" name="platform/external/hyphenation" />
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
@@ -74,21 +72,18 @@
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="github" revision="gingerbread" />
-  <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/libffi" name="platform/external/libffi" />
-  <project path="external/libgsm" name="platform/external/libgsm" />
-  <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
-  <project path="external/libpcap" name="platform/external/libpcap" />
+ 
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" revision="gingerbread" />
-  <project path="external/libusb" name="platform/external/libusb" />
-  <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
-  <project path="external/libxslt" name="platform/external/libxslt" />
+  <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libgsm" name="platform/external/libgsm" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
+  <project path="external/libpcap" name="platform/external/libpcap" />
+
   <project path="external/mtpd" name="platform/external/mtpd" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
