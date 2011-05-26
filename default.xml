@@ -29,7 +29,7 @@
   <project path="device/htc/sapphire" name="roalex/sapphire" remote="github" revision="Cos" />
   <project path="device/htc/bravo" name="roalex/android_device_htc_bravo" remote="github" revision="master" />
 
-  <project path="development" name="ezterry/GB-development" remote="github" revision="gingerbread" />
+  <project path="development" name="CyanogenMod/android_development" remote="github" revision="gingerbread" />
 
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" remote="github" revision="gingerbread" /> 
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" remote="github" revision="gingerbread" />
