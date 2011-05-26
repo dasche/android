@@ -31,8 +31,11 @@
 
   <project path="development" name="ezterry/GB-development" remote="github" revision="gingerbread" />
 
+  <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" remote="github" revision="gingerbread" /> 
+  <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" remote="github" revision="gingerbread" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
+
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" revision="gingerbread" />
@@ -42,12 +45,14 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="gingerbread" />
+
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="CyanogenMod/android_external_clearsilver" remote="github" revision="gingerbread" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" revision="master" remote="github" />
+
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="gingerbread" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
@@ -56,24 +61,31 @@
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
+
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" revision="gingerbread" />
+
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" />
   <project path="external/guava" name="platform/external/guava" />
+
+  <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" remote="github" revision="gingerbread" />
+
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
+
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="github" revision="gingerbread" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
+
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
  
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" revision="gingerbread" />
@@ -83,21 +95,30 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libpcap" name="platform/external/libpcap" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="gingerbread" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="gingerbread" />
 
-  <project path="external/mtpd" name="platform/external/mtpd" />
+  <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" remote="github" revision="gingerbread" />
+
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
+
   <project path="external/oauth" name="platform/external/oauth" />
-  <project path="external/openssl" name="platform/external/openssl" />
+  <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" revision="gingerbread" />
   <project path="external/oprofile" name="platform/external/oprofile" />
+
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
+
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="master" />
+
   <project path="external/qemu" name="CyanogenMod/android_external_qemu" remote="github" revision="tools_r7" />
   <project path="external/quake" name="platform/external/quake" />
+
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" revision="gingerbread" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -107,15 +128,21 @@
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" remote="github" revision="gingerbread" />
   <project path="external/svox" name="platform/external/svox" />
+
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
+
   <project path="external/v8" name="CyanogenMod/android_external_v8"  remote="github" revision="gingerbread" />
+
+  <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" revision="gingerbread" />
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="gingerbread" />
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="github" revision="gingerbread" />
   <project path="external/wpa_supplicant_6" name="CyanogenMod/android_external_wpa_supplicant_6" remote="github" revision="gingerbread" />
+
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
+
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="gingerbread" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="gingerbread" />
 
