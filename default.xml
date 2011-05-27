@@ -101,6 +101,7 @@
 
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" remote="github" revision="gingerbread" />
 
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="gingerbread" /> 
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
@@ -206,7 +207,7 @@
 
   <project path="packages/experimental" name="platform/packages/experimental" />
 
-   <project path="packages/inputmethods/LatinIME" name="roalex/latinime" remote="github" revision="Cos" />
+  <project path="packages/inputmethods/LatinIME" name="roalex/latinime" remote="github" revision="Cos" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
