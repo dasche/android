@@ -36,7 +36,6 @@
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
 
-  <project path="external/bash" name="roalex/bash" remote="github" revision="Cos" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" revision="gingerbread" />
@@ -101,7 +100,6 @@
 
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" remote="github" revision="gingerbread" />
 
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="gingerbread" /> 
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
