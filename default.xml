@@ -148,7 +148,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="gingerbread" />
 
   
-  <project path="frameworks/base" name="roalex/cos_frameworks_base" remote="github" revision="master" />
+  <project path="frameworks/base" name="roalex/cos_frameworks_base" remote="github" revision="gingerbread" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
 
