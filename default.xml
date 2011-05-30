@@ -10,7 +10,7 @@
            fetch="git://github.com/" />
 
   <remote name="themes"
-          fetch="git://github.com/tmobile" /
+          fetch="git://github.com/tmobile" />
 
   <project path="build" name="roalex/android_build" remote="github" revision="Cos" >
     <copyfile src="core/root.mk" dest="Makefile" />
