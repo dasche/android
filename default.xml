@@ -193,6 +193,7 @@
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" revision="gingerbread" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" revision="gingerbread" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Pacman" name="roalex/pacman" remote="github" revision="Cos" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="github" revision="gingerbread" />
   <project path="packages/apps/Settings" name="roalex/cos_packages_apps_Settings" remote="github" revision="Cos" />
