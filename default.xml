@@ -30,7 +30,6 @@
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/dream-sapphire" name="roalex/dream-sapphire" remote="github" revision="Cos" />
   <project path="device/htc/sapphire" name="roalex/sapphire" remote="github" revision="Cos" />
-  <project path="device/htc/bravo" name="roalex/android_device_htc_bravo" remote="github" revision="Cos" />
 
   <project path="development" name="CyanogenMod/android_development" remote="github" revision="gingerbread" />
 
