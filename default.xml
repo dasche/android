@@ -65,7 +65,7 @@
   <project path="external/expat" name="platform/external/expat" />
 
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/freetype" name="platform/external/freetype" />
+  <project path="external/freetype" name="CyanogenMod/android_external_freetype" remote="github" revision="gingerbread" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" revision="gingerbread" />
 
