@@ -22,7 +22,7 @@
 
   <project path="bootable/bootloader/legacy" name="android/platform_bootloader_legacy" remote="github" revision="master" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="gingerbread" />
-  <project path="bootable/recovery" name="platform/recovery" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
 
   <project path="dalvik" name="roalex/dalvik" remote="github" revision="Cos" />
 
