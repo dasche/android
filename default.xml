@@ -24,7 +24,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="gingerbread" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
-  <project path="dalvik" name="roalex/dalvik" remote="github" revision="Cos" />
+  <project path="dalvik" name="roalex/dalvik" remote="github" revision="master" />
 
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
