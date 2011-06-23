@@ -204,7 +204,6 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" revision="gingerbread" />
   <project path="packages/apps/COSWallpapers" name="roalex/wallpapers" remote="github" revision="Cos" />
-  <project path="packages/apps/COSWallpapers-hdpi" name="roalex/wallpapers" remote="github" revision="hdpi" />
   <project path="packages/apps/WirelessTether" name="roalex/wireless_tether" remote="github" revision="Cos" />
   <project path="packages/experimental" name="platform/packages/experimental" />
 
