@@ -49,8 +49,8 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="gingerbread" />
 
   <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clearsilver" name="CyanogenMod/android_external_clearsilver" remote="github" revision="gingerbread" />
-  <project path="external/dbus" name="platform/external/dbus" />
+  <project path="external/clearsilver" name="platform/external/clearsilver" />
+   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" revision="master" remote="github" />
@@ -242,8 +242,10 @@
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" remote="github" revision="gingerbread" />
   <project path="vendor/htc/bravo" name="roalex/vendor_htc_bravo" remote="github" revision="master" /> 
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" remote="github" revision="gingerbread" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="refs/heads/master" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="themes" revision="refs/heads/master" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="themes" revision="refs/heads/master" />
-  <project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="themes" revision="refs/heads/master" /> 
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="gingerbread" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="gingerbread" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="gingerbread" />
+  <project path="vendor/tmobile/themes/Androidian" name="CyanogenMod/android_vendor_tmobile_themes_Androidian" remote="github"revision="gingerbread" />
+  <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" remote="github" revision="gingerbread" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="github" revision="gingerbread" />
 </manifest>
