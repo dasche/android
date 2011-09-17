@@ -224,7 +224,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" remote="github" revision="gingerbread" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
-  <project path="prebuilt" name="platform/prebuilt" />
+    <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="gingerbread" />
 
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
 
