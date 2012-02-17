@@ -10,7 +10,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <project path="build" name="roalex/android_build" remote="github" revision="master" >
+  <project path="build" name="roalex/android_build" remote="github" revision="Cos" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -18,9 +18,9 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
 
-  <project path="bionic" name="roalex/android_bionic" remote="github" revision="gingerbread" />
+  <project path="bionic" name="roalex/android_bionic" remote="github" revision="Cos" />
 
-  <project path="dalvik" name="roalex/dalvik" remote="github" revision="master" />
+  <project path="dalvik" name="roalex/dalvik" remote="github" revision="Cos" />
 
   <project path="device/common" name="device/common" revision="gingerbread" />
   <project path="device/htc/common" name="device/htc/common" />
@@ -168,9 +168,8 @@
 
   <project path="ndk" name="platform/ndk" />
 
-<project path="packages/apps/AccountsAndSyncSettings" name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" remote="github" revision="gingerbread" />
+  <project path="packages/apps/AccountsAndSyncSettings" name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" remote="github" revision="gingerbread" />
   <project path="packages/apps/AndroidTerm" name="CyanogenMod/android_packages_apps_AndroidTerm" remote="github" revision="gingerbread" />
-  <project path="packages/apps/ADWLauncher" name="CyanogenMod/android_packages_apps_ADWLauncher" remote="github" revision="gingerbread" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="gingerbread" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="gingerbread" />
   <project path="packages/apps/CMScreenshot" name="CyanogenMod/android_packages_apps_CMScreenshot" remote="github" revision="gingerbread" />
@@ -179,26 +178,26 @@
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="gingerbread" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" revision="gingerbread" />
-  <project path="packages/apps/COSsettings" name="roalex/COSsettings" remote="github" revision="gingerbread" />
+  <project path="packages/apps/COSsettings" name="roalex/COSsettings" remote="github" revision="Cos" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" revision="gingerbread" />
-  <project path="packages/apps/DSPManager" name="roalex/android_packages_apps_DSPManager" remote="github" revision="Cos" />
- <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="gingerbread" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="gingerbread" />
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="gingerbread" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="gingerbread" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" revision="gingerbread" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" remote="github" revision="gingerbread" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="roalex/Launcher2" remote="github" revision="Tmo" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2"  />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" revision="gingerbread" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" revision="gingerbread" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/Pacman" name="roalex/pacman" remote="github" revision="Cos" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="github" revision="gingerbread" />
-  <project path="packages/apps/Settings" name="roalex/cos_packages_apps_Settings" remote="github" revision="gingerbread" />
+  <project path="packages/apps/Settings" name="roalex/cos_packages_apps_Settings" remote="github" revision="Cos" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" revision="gingerbread" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="roalex/android_packages_apps_Superuser" remote="github" revision="gingerbread" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="gingerbread" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="gingerbread" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" revision="gingerbread" />
@@ -206,7 +205,7 @@
   <project path="packages/apps/WirelessTether" name="roalex/wireless_tether" remote="github" revision="Cos" />
   <project path="packages/experimental" name="platform/packages/experimental" />
 
-  <project path="packages/inputmethods/LatinIME" name="roalex/latinime" remote="github" revision="Cos" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="gingerbread" />
 
 
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -220,28 +219,26 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
 
  <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" remote="github" revision="gingerbread" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" remote="github" revision="gingerbread" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
+ <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
+ <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" remote="github" revision="gingerbread" />
+ <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
-    <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="gingerbread" />
+ <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="gingerbread" />
 
-  <project path="sdk" name="platform/sdk" revision="tools_r7" />
+ <project path="sdk" name="platform/sdk" revision="tools_r7" />
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="roalex/system_core" remote="github" revision="Cos" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="gingerbread" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="gingerbread" />
-  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="master" />
-  <project path="system/vold" name="roalex/android_system_vold" remote="github" revision="master" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="gingerbread" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="gingerbread" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" remote="github" revision="gingerbread" />
   <project path="vendor/htc/bravo" name="roalex/vendor_htc_bravo" remote="github" revision="master" /> 
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" remote="github" revision="gingerbread" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="gingerbread" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="gingerbread" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="gingerbread" />
-  <project path="vendor/tmobile/themes/Androidian" name="CyanogenMod/android_vendor_tmobile_themes_Androidian" remote="github" revision="gingerbread" />
-  <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" remote="github" revision="gingerbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="github" revision="gingerbread" />
 </manifest>
