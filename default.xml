@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
+  <remote  name="korg"
+           fetch="git://android.git.kernel.org/"
+           review="review.source.android.com" />
            
   <remote  name="github"
            fetch="git://github.com/" />
  
   <default revision="gingerbread"
-           remote="aosp"
+           remote="korg"
            sync-j="4" />
            
   <project path="build" name="roalex/android_build" remote="github" revision="Cos" >
