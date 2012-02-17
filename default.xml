@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="korg"
-           fetch="http://android-git.devnull.name/"
-           />
-           
+
+  <remote  name="aosp"
+           fetch=".." />
   <default revision="gingerbread"
-           remote="korg" />
-           
+           remote="aosp"
+           sync-j="4" />
+
   <remote  name="github"
            fetch="git://github.com/" />
 
@@ -14,17 +14,15 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="gingerbread" />
-
-  <project path="cts" name="platform/cts" />
-
-  <project path="bootable/bootloader/legacy" name="android/platform_bootloader_legacy" remote="github" revision="master" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="gingerbread" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
+
+  <project path="bionic" name="roalex/android_bionic" remote="github" revision="gingerbread" />
 
   <project path="dalvik" name="roalex/dalvik" remote="github" revision="master" />
 
-  <project path="device/common" name="device/common" />
+  <project path="device/common" name="device/common" revision="gingerbread" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/dream-sapphire" name="roalex/dream-sapphire" remote="github" revision="Cos" />
   <project path="device/htc/sapphire" name="roalex/sapphire" remote="github" revision="Cos" />
@@ -36,12 +34,14 @@
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
 
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="gingerbread" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" revision="gingerbread" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
+  <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" remote="github" revision="gingerbread" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="gingerbread" />
 
@@ -49,7 +49,7 @@
   <project path="external/clearsilver" name="CyanogenMod/android_external_clearsilver" remote="github" revision="gingerbread" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
+  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="github" revision="gingerbread" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" revision="master" remote="github" />
 
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="gingerbread" />
@@ -96,7 +96,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="gingerbread" />
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="gingerbread" />
-
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="gingerbread"  />
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" remote="github" revision="gingerbread" />
 
   <project path="external/netcat" name="platform/external/netcat" />
@@ -148,7 +148,7 @@
   <project path="external/webp" name="CyanogenMod/android_external_webp" remote="github" revision="master" />
 
   
-  <project path="frameworks/base" name="roalex/cos_frameworks_base" remote="github" revision="master" />
+  <project path="frameworks/base" name="roalex/cos_frameworks_base" remote="github" revision="Cos" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
 
@@ -179,7 +179,7 @@
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="gingerbread" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" revision="gingerbread" />
-  <project path="packages/apps/COSsettings" name="roalex/COSsettings" remote="github" revision="Cos" />
+  <project path="packages/apps/COSsettings" name="roalex/COSsettings" remote="github" revision="gingerbread" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" revision="gingerbread" />
   <project path="packages/apps/DSPManager" name="roalex/android_packages_apps_DSPManager" remote="github" revision="Cos" />
  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="gingerbread" />
@@ -195,7 +195,7 @@
   <project path="packages/apps/Pacman" name="roalex/pacman" remote="github" revision="Cos" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" remote="github" revision="gingerbread" />
-  <project path="packages/apps/Settings" name="roalex/cos_packages_apps_Settings" remote="github" revision="Cos" />
+  <project path="packages/apps/Settings" name="roalex/cos_packages_apps_Settings" remote="github" revision="gingerbread" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" revision="gingerbread" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Superuser" name="roalex/android_packages_apps_Superuser" remote="github" revision="gingerbread" />
@@ -245,4 +245,3 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" remote="github" revision="gingerbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="github" revision="gingerbread" />
 </manifest>
-
