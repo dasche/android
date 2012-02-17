@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="aosp"
-           fetch="https://android.googlesource.com/platform/manifest" />
+           fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
            fetch="git://github.com/" />
