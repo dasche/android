@@ -188,7 +188,7 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" remote="github" revision="gingerbread" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2"  />
+  <project path="packages/apps/Launcher2" name="roalex/Launcher2" remote="github" revision="Cos"  />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" revision="gingerbread" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" revision="gingerbread" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
