@@ -164,9 +164,9 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="ics"/>
   <project path="external/zlib" name="android_external_zlib" remote="github" revision="ics"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="ics"/>
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
+  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cm" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" revision="ics" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
@@ -191,6 +191,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="android_libcore" remote="github" revision="ics"/>
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="ics" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -261,7 +262,6 @@
   <project path="android" name="android" remote="github" revision="ics"/>
   <project path="device/lge/thundercls670" name="android_device_lge_thundercls670" remote="github" revision="ics"/>
   <project path="device/htc/common" name="android_device_htc_common" remote="github" revision="ics"/>
-  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="ics" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="ics"/>
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="ics"/>
   <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="ics"/>
