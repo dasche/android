@@ -146,7 +146,7 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" />
+  <project path="external/v8" name="android_external_v8" remote="cm" revision="ics" />
   <project path="external/valgrind" name="platform/external/valgrind" />
   <project path="external/vim" name="android_external_vim" remote="github" revision="ics" />
   <project path="external/webkit" name="android_external_webkit" remote="github" revision="ics"/>
@@ -162,10 +162,10 @@
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cm" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" revision="ics" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="cm" revision="ics" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
+  <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" remote="cm" revision="ics" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
@@ -187,7 +187,7 @@
   <project path="libcore" name="android_libcore" remote="github" revision="ics"/>
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="ics"/>
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="ics"/>
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics"/>
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="cm" revision="ics" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -218,10 +218,11 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="ics" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" revision="ics"/>
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cm" revision="ics"/>
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -230,7 +231,7 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="ics"/>
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" revision="ics"/>
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
@@ -245,7 +246,8 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="android_system_core" remote="me" revision="ics"/>
-  <project path="system/extras" name="android_system_extras" remote="github" revision="ics"/>
+  <project path="system/su" name="android_system_su" remote="cm" revision="ics" />
+  <project path="system/extras" name="android_system_extras" remote="cm" revision="ics"/>
   <project path="system/media" name="android_system_media" remote="github" revision="ics"/>
   <project path="system/netd" name="android_system_netd" remote="github" revision="ics"/>
   <project path="system/vold" name="android_system_vold" remote="github" revision="ics"/>
