@@ -32,7 +32,7 @@
   <project path="device/htc/common" name="Evervolv/android_device_htc_common" remote="gh" revision="ics"/>
   <project path="device/htc/bravo" name="roalex/android_device_htc_bravo" remote="gh" revision="ics"/>
   <project path="dalvik" name="Evervolv/android_dalvik" remote="gh" revision="ics"/>
-  <project path="development" name="AOKP/platform_development" remote="gh" revision="ics-mr1-release" />
+  <project path="development" name="Evervolv/android_development" remote="gh" revision="ics" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
