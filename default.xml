@@ -66,7 +66,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
-  <project path="external/freetype" name="platform/external/freetype" />
+  <project path="external/freetype" name="Evervolv/android_external_freetype" remote="gh" revision="ics"/>
   <project path="external/fsck_msdos" name="AOKP/external_fsck_msdos" remote="gh" revision="master" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
@@ -126,7 +126,7 @@
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="Evervolv/android_external_skia" remote="gh" revision="ics"/>
+   <project path="external/skia" name="Evervolv/android_external_skia" remote="gh" revision="ics"/>
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
@@ -140,9 +140,9 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" />
+  <project path="external/v8" name="CyanogenMod/android_external_v8" remote="gh" revision="ics" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="Evervolv/android_external_webkit" remote="gh" revision="ics" />
+  <project path="external/webkit" name="Evervolv/android_external_webkit" remote="gh" revision="ics"/>
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="AOKP/external_wpa_supplicant" remote="gh" revision="master" />
