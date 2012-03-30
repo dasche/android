@@ -251,7 +251,7 @@
   <project path="system/netd" name="android_system_netd" remote="cm" revision="ics"/>
   <project path="system/su" name="android_system_su" remote="cm" revision="ics" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="ics"/>
-  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="cm" revision="ics"/>
+  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="ics"/>
   <project path="system/wlan/atheros" name="android_system_wlan_atheros" remote="github" revision="ics"/>
   <project path="android" name="android" remote="me" revision="ics"/>
   <project path="vendor/cos" name="vendor_alex" remote="me" revision="ics"/>
