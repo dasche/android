@@ -112,11 +112,9 @@
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
   <project path="external/svox" name="CyanogenMod/android_external_svox" />
   <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
-  <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
   <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" />
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
   <project path="external/v8" name="CyanogenMod/android_external_v8" />
-  <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" revision="master" />
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" />
@@ -223,9 +221,6 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-  <project path="vendor/tmobile/themes/Androidian" name="CyanogenMod/android_vendor_tmobile_themes_Androidian" />
-  <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
-  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
   <project path="android" name="CyanogenMod/android" />
 
