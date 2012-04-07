@@ -12,7 +12,7 @@
   <project path="build" name="roalex/android_build" revision="Cos-Gb">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="CyanogenMod/android_bionic" />
+  <project path="bionic" name="roalex/android_bionic" revision="Cos-Gb"/>
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
