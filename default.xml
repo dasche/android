@@ -14,6 +14,9 @@
 
   <remote  name="me"
            fetch="git://github.com/roalex/" />
+           
+  <remote  name="gh"
+           fetch="git://github.com/" />         
 
   <default revision="refs/tags/android-4.0.4_r1.1"
            remote="aosp"
@@ -54,7 +57,7 @@
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/collada" name="platform/external/collada" />
   <project path="external/dbus" name="platform/external/dbus" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
+  <project path="external/dhcpcd" name="dk-zero-cool/android_external_dhcpcd" remote="gh" revision="ics" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="android_external_dropbear" remote="github" revision="ics" />
