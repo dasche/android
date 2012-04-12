@@ -166,6 +166,6 @@
   <project path="vendor/nxp" name="koush/proprietary_vendor_nxp" remote="github" />
   <project path="vendor/oxygen" name="oxygen-rom/android_vendor_oxygen" remote="github" />
   <project path="vendor/google" name="oxygen-rom/android_vendor_google" remote="github" />
-  <project path="vendor/htc" name="oxygen-rom/android_vendor_htc" remote="github" />
+  <project path="vendor/htc" name="roalex/proprietary_vendor_htc" remote="github" revision="Wip"/>
   <project path="vendor/samsung" name="oxygen-rom/android_vendor_samsung" remote="github" />
 </manifest>
