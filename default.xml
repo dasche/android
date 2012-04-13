@@ -8,10 +8,8 @@
            fetch="http://android.googlesource.com/" />
            
   <remote name="me" 
-          fetch="git://github.com/roalex/" />
-          
-  <default revision="Wip"
-           remote="me" />
+          fetch="git://github.com/roalex/"
+          revision="Wip"/>
            
   <default revision="gingerbread"
            remote="aosp" />
