@@ -7,6 +7,12 @@
   <remote  name="aosp"
            fetch="http://android.googlesource.com/" />
            
+  <remote name="me" 
+          fetch="git://github.com/roalex/" />
+          
+  <default revision="Wip"
+           remote="me" />
+           
   <default revision="gingerbread"
            remote="aosp" />
            
@@ -21,7 +27,7 @@
   <project path="device/htc/bravo" name="roalex/android_device_htc_bravo" remote="github" revision="Wip" />
   <project path="device/htc/bravoc" name="roalex/android_device_htc_bravoc" remote="github" revision="Wip" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
-  <project path="device/htc/passion" name="roalex/android_device_htc_passion" remote="github" revison="Wip" />
+  <project path="device/htc/passion" name="roalex/android_device_htc_passion" remote="github"/>
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/c1-common" name="oxygen-rom/android_device_samsung_c1-common" remote="github" />
   <project path="device/samsung/crespo" name="oxygen-rom/android_device_samsung_crespo" remote="github" />
