@@ -10,7 +10,7 @@
   <project path="build" name="roalex/android_build" remote="github" revision="Wip" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="oxygen-rom/android_bionic" remote="github" />
+  <project path="bionic" name="roalex/android_bionic" remote="github" revision="Wip" />
   <project path="bootable/recovery" name="oxygen-rom/android_bootable_recovery" remote="github" />
   <project path="dalvik" name="roalex/android_dalvik" remote="github" revision="Wip" />
   <project path="development" name="platform/development" />
