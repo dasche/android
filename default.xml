@@ -246,7 +246,6 @@
   <project path="system/vold" name="android_system_vold" remote="github" revision="ics"/>
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="ics"/>
   <project path="system/wlan/atheros" name="android_system_wlan_atheros" remote="github" revision="ics"/>
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="android" name="android" remote="me" revision="ics"/>
   <project path="vendor/cos" name="vendor_alex" remote="me" revision="ics"/>
   <project path="vendor/htc" name="vendor_htc_bravo" remote="me" revision="ics"/>
