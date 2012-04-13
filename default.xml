@@ -15,7 +15,7 @@
   <project path="dalvik" name="roalex/android_dalvik" remote="github" revision="Wip" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/bravo" name="roalex/android_device_htc_bravo" remote="github" revision="Wip"/>
+  <project path="device/htc/bravo" name="roalex/android_device_htc_bravo" remote="github" revision="Wip" />
   <project path="device/htc/bravoc" name="roalex/android_device_htc_bravoc" remote="github" revision="Wip" />
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
   <project path="device/htc/passion" name="roalex/android_device_htc_passion" remote="github" revison="Wip" />
