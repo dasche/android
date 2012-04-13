@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote name="github" 
+          fetch="git://github.com/" />
+
   <remote  name="aosp"
            fetch="http://android.googlesource.com/" />
+           
   <default revision="gingerbread"
            remote="aosp" />
-
-  <remote name="github" fetch="git://github.com/" />
-
+           
   <project path="build" name="roalex/android_build" remote="github" revision="Wip" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
