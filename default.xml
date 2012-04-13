@@ -17,15 +17,15 @@
   <project path="build" name="roalex/android_build" remote="me">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="roalex/android_bionic" remote="github" revision="Wip" />
+  <project path="bionic" name="android_bionic" remote="github" revision="Wip" />
   <project path="bootable/recovery" name="oxygen-rom/android_bootable_recovery" remote="github" />
-  <project path="dalvik" name="roalex/android_dalvik" remote="me"/>
+  <project path="dalvik" name="android_dalvik" remote="me"/>
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/htc/bravo" name="roalex/android_device_htc_bravo" remote="me"/>
-  <project path="device/htc/bravoc" name="roalex/android_device_htc_bravoc" remote="me"/>
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="me"/>
+  <project path="device/htc/bravoc" name="android_device_htc_bravoc" remote="me"/>
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="github" />
-  <project path="device/htc/passion" name="roalex/android_device_htc_passion" remote="me"/>
+  <project path="device/htc/passion" name="android_device_htc_passion" remote="me"/>
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/c1-common" name="oxygen-rom/android_device_samsung_c1-common" remote="github" />
   <project path="device/samsung/crespo" name="oxygen-rom/android_device_samsung_crespo" remote="github" />
@@ -109,13 +109,13 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="roalex/cos_frameworks_base" remote="me"/>
+  <project path="frameworks/base" name="cos_frameworks_base" remote="me"/>
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="oxygen-rom/android_hardware_broadcom_wlan" remote="github" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="roalex/android_hardware_libhardware_legacy" remote="me"/>
-  <project path="hardware/msm7k" name="roalex/android_hardware_msm7k" remote="me"/>
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="me"/>
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="me"/>
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="oxygen-rom/android_hardware_ril" remote="github" />
@@ -161,7 +161,7 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="oxygen-rom/android_system_bluetooth" remote="github" />
-  <project path="system/core" name="roalex/android_system_core" remote="me"/>
+  <project path="system/core" name="android_system_core" remote="me"/>
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/extras/su" name="ChainsDD/su-binary" revision="master" remote="github" />
   <project path="system/media" name="platform/system/media" />
@@ -171,7 +171,7 @@
   <project path="vendor/broadcom" name="koush/proprietary_vendor_broadcom" remote="github" />
   <project path="vendor/imgtec" name="koush/proprietary_vendor_imgtec" remote="github" />
   <project path="vendor/nxp" name="koush/proprietary_vendor_nxp" remote="github" />
-  <project path="vendor/oxygen" name="roalex/vendor_alex" remote="me"/>
+  <project path="vendor/oxygen" name="vendor_alex" remote="me"/>
   <project path="vendor/google" name="oxygen-rom/android_vendor_google" remote="github" />
   <project path="vendor/htc" name="roalex/proprietary_vendor_htc" remote="github" revision="Wip"/>
   <project path="vendor/samsung" name="oxygen-rom/android_vendor_samsung" remote="github" />
