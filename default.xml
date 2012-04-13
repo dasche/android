@@ -14,10 +14,10 @@
   <default revision="gingerbread"
            remote="aosp" />
            
-  <project path="build" name="roalex/android_build" remote="me">
+  <project path="build" name="android_build" remote="me">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_bionic" remote="github" revision="Wip" />
+  <project path="bionic" name="android_bionic" remote="me"/>
   <project path="bootable/recovery" name="oxygen-rom/android_bootable_recovery" remote="github" />
   <project path="dalvik" name="android_dalvik" remote="me"/>
   <project path="development" name="platform/development" />
