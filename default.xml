@@ -109,6 +109,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/llvm" name="CyanogenMod/android_external_llvm" remote="cm" revision="ics" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="ics" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" />
