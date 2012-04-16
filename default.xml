@@ -237,7 +237,7 @@
   <project path="packages/providers/GoogleContactsProvider" name="android_packages_providers_GoogleContactsProvider" remote="cm" revision="ics" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" revision="ics" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" revision="ics" />
-  <project path="packages/providers/UserDictionaryProvider" name="/android_packages_providers_UserDictionaryProvider" remote="cm" revision="ics" />
+  <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="cm" revision="ics" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
