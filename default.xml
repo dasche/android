@@ -109,6 +109,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/llvm" name="android_external_llvm" remote="cm" revision="ics" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
+  <project path="external/lzo" name="android_external_lzo" remote="cm" revision="ics" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" />
@@ -121,8 +122,9 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/opencv" name="platform/external/opencv" />
-  <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/openssl" name="android_external_openssl" remote="cm" revision="ics" />
+  <project path="external/openvpn" name="android_external_openvpn" remote="cm" revision="ics" />
+  <project path="external/oprofile" name="android_external_oprofile" remote="cm" revision="ics" />
   <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
