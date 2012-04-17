@@ -46,9 +46,9 @@
   <project path="external/bash" name="android_external_bash" remote="github" revision="ics" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="github" revision="ics" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
+  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cm" revision="ics" />
+  <project path="external/bluetooth/glib" name="android_external_bluetooth_glib" remote="cm" revision="ics" />
+  <project path="external/bluetooth/hcidump" name="android_external_bluetooth_hcidump" remote="cm" revision="ics" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="ics"/>
@@ -84,7 +84,7 @@
   <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
-  <project path="external/iptables" name="platform/external/iptables" />
+  <project path="external/iptables" name="android_external_iptables" remote="cm" revision="ics" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
@@ -194,14 +194,14 @@
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="ics"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="ics"/>
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" revision="ics" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="ics" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="ics" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="cm" revision="ics" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="ics"/>
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" revision="ics" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" revision="ics" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" revision="ics" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -243,14 +243,14 @@
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="cm" revision="ics" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="android_system_core" remote="me" revision="ics"/>
-  <project path="system/extras" name="android_system_extras" remote="github" revision="ics"/>
-  <project path="system/media" name="android_system_media" remote="github" revision="ics"/>
-  <project path="system/netd" name="android_system_netd" remote="github" revision="ics"/>
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="cm" revision="ics" />
+  <project path="system/core" name="android_system_core" remote="me" revision="ics" />
+  <project path="system/extras" name="android_system_extras" remote="github" revision="ics" />
+  <project path="system/media" name="android_system_media" remote="cm" revision="ics" />
+  <project path="system/netd" name="android_system_netd" remote="github" revision="ics" />
   <project path="system/vold" name="android_system_vold" remote="github" revision="ics"/>
-  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="ics"/>
-  <project path="system/wlan/atheros" name="android_system_wlan_atheros" remote="github" revision="ics"/>
+  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="ics" />
+  <project path="system/wlan/atheros" name="android_system_wlan_atheros" remote="github" revision="ics" />
   <project path="android" name="android" remote="me" revision="ics"/>
   <project path="vendor/cos" name="vendor_alex" remote="me" revision="ics"/>
   <project path="vendor/htc" name="vendor_htc_bravo" remote="me" revision="ics"/>
