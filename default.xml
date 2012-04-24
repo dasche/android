@@ -196,7 +196,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
   <project path="vendor/cos" name="roalex/vendor_alex" revision="Cos-Gb"/>
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="roalex/themes-platform-vendor-tmobile-apps-ThemeChooser" revision="Cos-Gb" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="android" name="roalex/android" revision="Cos-Gb" />
