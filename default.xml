@@ -26,7 +26,7 @@
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
   <project path="external/astl" name="CyanogenMod/android_external_astl" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" />
+  <project path="external/bash" name="roalex/android_external_bash" revision="Cos-Gb" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
