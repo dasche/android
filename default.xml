@@ -174,7 +174,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/support" name="cos_frameworks_support" remote="me" revision="ics" />
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="ics" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="github" revision="ics" />
   <project path="hardware/cm" name="android_hardware_cm" remote="github" revision="ics" />
