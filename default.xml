@@ -157,9 +157,9 @@
   <project path="external/webkit" name="android_external_webkit" remote="github" revision="ics"/>
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="android_external_webrtc" remote="cm" revision="ics" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="github" revision="ics"/>
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="github" revision="ics"/>
+  <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="me" revision="ics" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="me" revision="ics"/>
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="me" revision="ics"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="ics"/>
   <project path="external/zlib" name="android_external_zlib" remote="github" revision="ics"/>
