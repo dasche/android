@@ -51,7 +51,7 @@
   <project path="external/bluetooth/hcidump" name="android_external_bluetooth_hcidump" remote="cm" revision="ics" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="android_external_busybox" remote="github" revision="ics"/>
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="ics"/>
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clang" name="platform/external/clang" />
@@ -145,7 +145,7 @@
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
-  <project path="external/strace" name="platform/external/strace" />
+  <project path="external/strace" name="android_external_strace" remote="cm" revision="ics" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
@@ -247,7 +247,7 @@
   <project path="system/core" name="android_system_core" remote="me" revision="ics" />
   <project path="system/extras" name="android_system_extras" remote="github" revision="ics" />
   <project path="system/media" name="android_system_media" remote="cm" revision="ics" />
-  <project path="system/netd" name="android_system_netd" remote="github" revision="ics" />
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="ics" />
   <project path="system/vold" name="android_system_vold" remote="github" revision="ics"/>
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="ics" />
   <project path="system/wlan/atheros" name="android_system_wlan_atheros" remote="github" revision="ics" />
