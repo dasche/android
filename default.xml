@@ -61,7 +61,7 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="android_external_dropbear" remote="github" revision="ics" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cm" revision="ics" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="github" revision="ics" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" />
