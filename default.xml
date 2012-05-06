@@ -255,6 +255,7 @@
   <project path="android" name="android" remote="me" revision="ics"/>
   <project path="vendor/cos" name="vendor_alex" remote="me" revision="ics"/>
   <project path="vendor/htc" name="vendor_htc_bravo" remote="me" revision="ics"/>
+  <project path="vendor/qcom/opensource/omx/mm-audio" name="android_vendor_qcom_opensource_omx_mm-audio" remote="me" revision="ics" >
   <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="me" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="me" revision="ics" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="ics" />
