@@ -84,7 +84,7 @@
   <project path="external/icu4c" name="android_external_icu4c" remote="cm" revision="ics" />
   <project path="external/iproute2" name="android_external_iproute2" remote="cm" revision="ics" />
   <project path="external/ipsec-tools" name="android_external_ipsec-tools" remote="cm" revision="ics" />
-  <project path="external/iptables" name="android_external_iptables" remote="cm" revision="ics" />
+  <project path="external/iptables" name="android_external_iptables" remote="me" revision="ics" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
