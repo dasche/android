@@ -163,7 +163,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="ics"/>
   <project path="external/zlib" name="android_external_zlib" remote="github" revision="ics"/>
-  <project path="frameworks/base" name="cos_frameworks_base" remote="me" revision="checkout"/>
+  <project path="frameworks/base" name="cos_frameworks_base" remote="me" revision="checkout" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" revision="ics" />
