@@ -163,7 +163,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="ics"/>
   <project path="external/zlib" name="android_external_zlib" remote="github" revision="ics"/>
-  <project path="frameworks/base" name="cos_frameworks_base" remote="me" revision="ics"/>
+  <project path="frameworks/base" name="cos_frameworks_base" remote="me" revision="checkout"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" revision="ics" />
@@ -174,7 +174,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/support" name="cos_frameworks_support" remote="me" revision="checkout" />
+  <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="ics" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="github" revision="ics" />
   <project path="hardware/cm" name="android_hardware_cm" remote="github" revision="ics" />
