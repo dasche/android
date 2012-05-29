@@ -215,7 +215,7 @@
   <project path="packages/apps/Music" name="android_packages_apps_Music" remote="cm" revision="ics" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="me" revision="ics" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="SpareParts" remote="me" revision="Cos" />
@@ -228,7 +228,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX"/>
   <project path="packages/apps/Settings" name="cos_packages_apps_Settings" remote="me" revision="ics-clean" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cm" revision="ics" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider"  />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider"  />
@@ -237,7 +237,7 @@
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
-  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="cm" revision="ics" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
