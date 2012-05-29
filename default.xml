@@ -245,7 +245,7 @@
   <project path="system/core" name="android_system_core" remote="me" revision="ics-clean" />
   <project path="system/extras" name="android_system_extras" remote="me" revision="ics" />
   <project path="system/su" name="android_system_su" remote="cm" revision="ics" />
-  <project path="system/media" name="platform/system/media" />
+  <project path="system/media" name="platform/system/media" revivsion="master" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="android_system_vold" remote="github" revision="ics" />
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="ics" />
