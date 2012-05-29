@@ -146,7 +146,7 @@
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="android_external_strace" remote="cm" revision="ics" />
-  <project path="external/svox" name="platform/external/svox" />
+  <project path="external/svox" name="platform/external/svox" revision="master" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
